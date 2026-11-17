@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>ZARZOUR — Sviluppatore</title>
+    <meta name="description" content="Biglietto da visita digitale di ZARZOUR: sviluppatore software. Link a GitHub, LinkedIn ed email." />
+    <meta name="author" content="ZARZOUR" />
+    <meta name="theme-color" content="#f7f6f3" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0e0e0c" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ZARZOUR — Sviluppatore" />
+    <meta property="og:description" content="Sviluppatore software. Progetti, codice e contatti." />
+    <meta name="twitter:card" content="summary" />
+
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2316150f'/><text x='50' y='68' font-family='Georgia,serif' font-size='54' fill='%23f7f6f3' text-anchor='middle'>Z</text></svg>"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <main class="card">
+      <p class="status">
+        <span class="status-dot" aria-hidden="true"></span>
+        Disponibile per nuovi progetti
+      </p>
+
+      <!-- TODO: nome e ruolo -->
+      <h1>ZARZOUR</h1>
+      <p class="role">Sviluppatore software</p>
+
+      <p class="bio">
+        Costruisco interfacce pulite e strumenti che funzionano. Appassionato di
+        codice, dati e mercati finanziari.
+      </p>
+
+      <nav class="links" aria-label="Collegamenti personali">
+        <a class="link" href="https://github.com/eharhzfha" target="_blank" rel="noopener">
+          <span class="link-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path
+                d="M12 .5a12 12 0 0 0-3.79 23.4c.6.11.82-.26.82-.58v-2.2c-3.34.72-4.04-1.42-4.04-1.42-.55-1.4-1.34-1.77-1.34-1.77-1.09-.75.08-.73.08-.73 1.2.08 1.84 1.24 1.84 1.24 1.07 1.84 2.81 1.31 3.5 1 .1-.78.42-1.31.76-1.61-2.67-.3-5.47-1.34-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.14-.3-.54-1.52.1-3.18 0 0 1-.32 3.3 1.23a11.4 11.4 0 0 1 6 0c2.29-1.55 3.3-1.23 3.3-1.23.64 1.66.24 2.88.12 3.18.77.84 1.23 1.91 1.23 3.22 0 4.6-2.8 5.63-5.48 5.92.43.37.81 1.1.81 2.22v3.29c0 .32.21.7.82.58A12 12 0 0 0 12 .5Z"
+              />
+            </svg>
+          </span>
+          <span class="link-text">
+            <strong>GitHub</strong>
+            <small>@eharhzfha</small>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+
+        <!-- TODO: sostituisci con il tuo profilo LinkedIn -->
+        <a class="link" href="https://www.linkedin.com/in/tuo-profilo/" target="_blank" rel="noopener">
+          <span class="link-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+              <path
+                d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9h4v12H3V9Zm6 0h3.83v1.64h.05A4.2 4.2 0 0 1 16.66 8.7c4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.5c0-1.31-.02-3-1.83-3-1.83 0-2.11 1.43-2.11 2.9V21H9V9Z"
+              />
+            </svg>
+          </span>
+          <span class="link-text">
+            <strong>LinkedIn</strong>
+            <small>Profilo professionale</small>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+
+        <!-- TODO: inserisci la tua email reale -->
+        <a class="link" href="mailto:tu@esempio.com">
+          <span class="link-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="20" height="20">
+              <rect x="2.5" y="4.5" width="19" height="15" rx="2.5" />
+              <path d="m3.5 6.5 8.5 6 8.5-6" />
+            </svg>
+          </span>
+          <span class="link-text">
+            <strong>Email</strong>
+            <small>tu@esempio.com</small>
+          </span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+
+      <footer class="footer">
+        <span>© <span id="year">2026</span> ZARZOUR</span>
+        <span class="footer-note">Fatto con HTML e CSS</span>
+      </footer>
+    </main>
+
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
